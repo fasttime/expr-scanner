@@ -1,0 +1,30 @@
+{
+  "name": "expr-scanner",
+  "description": "Generates the shortest expressions evaluating to integers between 0 and 100.",
+  "homepage": "https://github.com/fasttime/expr-scanner",
+  "bugs": {
+    "url": "https://github.com/fasttime/expr-scanner/issues"
+  },
+  "license": "ISC",
+  "author": "Francesco Trotta <ft@fasttime.org> (https://github.com/fasttime)",
+  "files": [
+    "expr-scanner.js"
+  ],
+  "bin": {
+    "make-art": "expr-scanner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fasttime/expr-scanner.git"
+  },
+  "scripts": {
+    "build": "npm install && gulp"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-fasttime-lint": "~0.0.6"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  }
+}
